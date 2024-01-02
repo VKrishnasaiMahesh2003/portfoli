@@ -1,0 +1,59 @@
+/* Set the font family and size for the whole website */
+* {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Set the background color and padding for the header section */
+.header {
+  background-color: #287cbd;
+  color: rgba(255, 255, 255, 0.849);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Set the margin and padding for the intro section */
+.intro {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Set the margin and padding for the education section */
+.education {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Set the margin and padding for the skills section */
+.skills {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Set the margin and padding for the projects section */
+.projects {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Set the width, height, margin, and border for the project images */
+.project img {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  border: 3px solid #f1f1f1;
+}
+.contact {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Use media queries to make the website responsive */
+@media screen and (max-width: 600px) {
+  /* Stack the project images vertically on small screens */
+  .project img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
